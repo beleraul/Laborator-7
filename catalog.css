@@ -1,0 +1,58 @@
+body {
+  background-color: beige;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  color: brown;
+  font-family: verdana;
+  font-size: 10px;
+}
+table, th, td {
+  
+  background-color: yellow;
+  border: 1px solid black;
+ 
+}
+img {
+  border-radius: 8px;
+  opacity: 0.8;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 150px;
+}
+#cat {
+body {
+   background-color: gray;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+p {
+  color: black;
+  font-family: verdana;
+  font-size: 10px;
+}
+table, th, td {
+  
+  background-color: red;
+  border: 1px solid black;
+ 
+}
+img {
+  border-radius: 4px;
+  opacity: 0.7;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px;
+  width: 140px;
+}
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" id="cat" href="catalog.css">
+</head>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000);
+}
+</script>
+<body>
+<h1 >INFORMATICA APLICATA</h1>
+<h2 >ANUL UNIVERSITAR 2020-2021</h2>
+<h3 >CATALOGUL COLEGILOR</h3>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="Ciobanu poza.jpg" style="width:10%">
+  <div class="text">Ciobanu Alexandru</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="Costan Stefan.jpg" style="width:10%">
+  <div class="text">Costan Stefan</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="Cucoranu poza.jpg" style="width:10%">
+  <div class="text">Cucoranu Daniel</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</body>
+</html>

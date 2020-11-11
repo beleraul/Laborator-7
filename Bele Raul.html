@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: beige;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  color: brown;
+  font-family: verdana;
+  font-size: 10px;
+}
+table, th, td {
+  
+  background-color: yellow;
+  border: 1px solid black;
+ 
+}
+img {
+  border-radius: 8px;
+  opacity: 0.8;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 150px;
+}
+</style>
+<script>
+function arataVarsta()
+{ 
+var varstMea;
+var anNasc = document.getElementById("varsta").innerHTML;
+var anCurent=azi.getfullYear();
+
+varstMea= anCurent - parseInt(anNasc);
+document.getElementById("varsta").innerHTML = varstMea;
+}
+</script>
+</head>
+<head>
+<title>Descrierea mea</title>
+</head>
+<body>
+
+<h1>Descrierea mea</h1>
+<p>Nume: Bele</p>
+<p>Prenume:Raul-Antonio</p>
+<p>E-mail: bele_raul@yahoo.com</p>
+<img src="DSC_7628.jpg">
+<p onmouseover="arataVarsta()" id="varsta">19 </p> 
+<p>Citat: “Scopul educaţiei este nimicirea mărginirii egoiste a individului şi supunerea lui la raţiunea lucrurilor.”– Titu Maiorescu <p/>
+<table>
+<tr>
+<th><p>Materii pe care doresc sa le aprofundez:</p></th>
+</tr>
+<tr>
+<td><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/EL3104.pdf">-Programarea calculatoarelor si limbaje de programare</a></td>
+</tr>
+<tr>
+<td><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/EL3117.pdf">-Grafica asistata de calculator</a></td>
+</tr>
+<tr>
+<td><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/EL3145.pdf">-Prelucrarea numerica a semnalelor</a></td>
+</tr>   
+</table>
+<table>
+<tr>
+<th><p>Hobby-uri</p></th>
+</tr>
+<tr>
+<td>-Citit</td>
+</tr>
+<tr>
+<td>-Inot</td>
+</tr>
+<tr>
+<td>-Muay Thai</td>
+</tr>
+</table>
+</body>
+</html>
